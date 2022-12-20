@@ -1,0 +1,12 @@
+num a = 5
+       if [ a==4 ] #
+             disp [ a|" is wrong" ]
+        ifnot#
+              disp [ a|" is crct" ]
+
+
+for i inside [ increment operator,startvalue,endvalue ] # [ statements ]
+
+    for i inside [ 2,0,10 ] #           
+     i=i plus 1
+     disp [ "sum is  : " | i ]
